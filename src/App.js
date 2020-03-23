@@ -65,7 +65,7 @@ import axios from 'axios';
         (<div className="form-container">
           {error ? <p className="error">Todos los campos son requeridos.</p> : null}
           <h1>Iniciar Sesión</h1>
-            <form className="form"  onSubmit={onSubmit}>
+            <form  onSubmit={onSubmit}>
               <input type="text" className="input-login" name="user" value={user} placeholder="Usuario" onChange={handleChange}/>
               <input type="password" name="password" placeholder="Contraseña" value={password} onChange={handleChange}/>
               <button type="submit">Iniciar</button>
