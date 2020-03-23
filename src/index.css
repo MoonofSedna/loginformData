@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  padding: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -152,7 +151,18 @@ form button:hover{
 @media screen and (max-width: 460px){
 
   form{
-    width: auto;
+    width: 210px;
+  }
+  input{
+    width: 165px;
   }
 
+  input:focus{
+    margin: auto;
+    width: 210px;
+  }
+
+  form button{
+    width: 165px;
+  }
 }
